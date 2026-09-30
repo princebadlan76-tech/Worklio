@@ -30,8 +30,7 @@ const TextTools = () => {
     <div className="min-h-screen bg-slate-900 text-white p-6 max-w-4xl mx-auto">
       <h2 className="text-3xl font-bold mb-6">Text & Content Utility</h2>
       
-      {/* Live Stats */}
-      <div className="grid grid-cols-4 gap-4 mb-6">
+      <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-6">
         <div className="bg-slate-800 p-4 rounded-lg text-center border border-slate-700">
           <p className="text-2xl font-bold text-blue-400">{stats.words}</p>
           <p className="text-slate-400 text-xs uppercase">Words</p>
@@ -69,4 +68,3 @@ const TextTools = () => {
 };
 
 export default TextTools;
-
